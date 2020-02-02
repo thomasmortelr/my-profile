@@ -1,0 +1,87 @@
+/* Colors and fonts */
+body {
+	background-color: rgb(255, 255, 255);
+	color: rgb(10, 10, 10);
+	font-family: Calibri;
+
+}
+
+h1 {
+	color: rgb(71, 176, 253);
+	font-family: Quantify;
+	font-weight: 540;
+	font-size: 49px;
+	text-transform: uppercase;
+}
+
+ h2 {
+ 	color: rgb(56, 216, 17);
+ 	font-weight: 600;
+ 	font-family : Oswald, sans-serif;
+ 	letter-spacing: 2px;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	color: rgb(71 ,176, 253);
+ }
+
+a:hover {
+	color: red;
+}
+
+
+/* Custom design with class */
+
+.container{
+	width: 700px;
+	margin: 50px auto;
+
+}
+
+.card-white {
+	background-color: #F6F6F6;
+	padding: 30px;
+	box-shadow: 5px 10px 40px rgba(10,10,30,0.3);
+	border-radius: 10px;
+	margin: 45px 5px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #78F1E8;
+	color: #000000;
+	border-radius: 30%;
+	padding: 10px 15px;
+}
+
+.list-inline {
+	padding-left: 0px; 
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
